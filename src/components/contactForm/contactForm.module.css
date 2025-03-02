@@ -1,0 +1,41 @@
+.form {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.nameField, .numberField {
+  margin: 16px;
+}
