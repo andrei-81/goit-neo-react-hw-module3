@@ -24,7 +24,6 @@ const ContactForm = ({ onAdd }) => {
     const numberFieldId = useId();
 
     const handleSubmit = (values, actions) => {
-        console.log(values);
         onAdd({id: Date.now(),
             name: values.username,
             number: values.number
